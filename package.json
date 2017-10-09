@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dist"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,13 @@
   "bugs": {
     "url": "https://github.com/adostal/demo-translate/issues"
   },
-  "homepage": "https://github.com/adostal/demo-translate#readme"
+  "homepage": "https://github.com/adostal/demo-translate#readme",
+  "dependencies": {
+    "@types/react": "^16.0.10",
+    "@types/react-dom": "^16.0.1",
+    "concurrently": "^3.5.0",
+    "next": "^4.0.0-beta.6",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
 }
