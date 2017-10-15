@@ -2,7 +2,6 @@ import * as React from 'react';
 import Document, {Head, Main, NextScript} from 'next/document';
 
 interface Props {
-    readonly styleTags: any;
 }
 
 class MainDocument extends Document<Props> {
